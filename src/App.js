@@ -10,7 +10,7 @@ const Movie1 ={"Title":"Italian Spiderman",
 "Type":"movie",
 "Poster":"N/A"
 }
-const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=b1f7db95";
+const API_URL = "https://www.omdbapi.com/?i=tt3896198&apikey=b1f7db95";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
